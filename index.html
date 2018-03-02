@@ -1,0 +1,27 @@
+<html>
+    <head>
+       <style>
+           h1{
+                text-align: center;
+                margin: 50px;
+                color: rgba(0, 195, 255, 0.986);
+                font-size: 50px;
+           }
+           form{
+                text-align: center;
+           }
+        </style>
+    </head>
+    <body>
+        <h1><i>Welcome to Weather Application</i></h1>
+        <form action="currentWeather.php"> 
+            <input type="submit" name="currentWeather" value="Get Current Weather">
+        </form>
+        <form action="48Hour-HourForecast.php"> 
+            <input type="submit" name="forecastWeather" value="Forcast Weather">
+        </form>
+        <form action="historicalWeather.php"> 
+            <input type="submit" name="historicalWeather" value="Get Historical Weather">
+        </form>
+    </body>
+</html>
